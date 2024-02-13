@@ -1,0 +1,47 @@
+/*====== Aesthetics ======*/
+
+#identity-box.extensionPage #identity-icon-label {
+  display: none !important;
+}
+#identity-icon {
+	list-style-image: url(flower_pink.svg) !important;
+}
+
+.tab-background:not([selected]) {
+  border-inline: 1px solid #6c5aec !important;
+}
+
+
+tab[label="New Tab"] .tab-icon-image {
+  content: url(flower_pink.svg) !important;
+}
+
+#titlebar {
+    background: linear-gradient(#554a9c, #4b418a) !important;
+}
+
+/* Sets the toolbar color */
+toolbar#nav-bar {
+    background: linear-gradient(#4b418a, #332d63) !important;
+    box-shadow: none !important;
+}
+
+#PersonalToolbar{ background: linear-gradient(#332d63, #2c2754) !important }
+
+tab[selected] .tab-background {
+	background: linear-gradient(#b1a7fc, #4b418a) !important;	 
+}
+
+#urlbar-background {
+    background: linear-gradient(#4b418a, #9e95de) !important;
+    border: none !important;
+} 
+
+#tracking-protection-icon-box {
+    display: none !important;
+}
+#tabbrowser-tabs {
+  border-inline-start: 0 !important;
+  padding-inline-start: 0 !important;
+  margin-inline-start: 0 !important;
+}
