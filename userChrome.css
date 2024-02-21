@@ -1,26 +1,25 @@
-/*====== Aesthetics ======*/
+
+/*===== Aesthetics ======*/
 
 #identity-box.extensionPage #identity-icon-label {
-  display: none !important;
+  dsplay: none !important;
 }
 #identity-icon {
-	list-style-image: url(flower_pink.svg) !important;
+	list-style-image: url(flower.svg) !important;
 }
 
 .tab-background:not([selected]) {
   border-inline: 1px solid #6c5aec !important;
 }
 
-
 tab[label="New Tab"] .tab-icon-image {
-  content: url(flower_pink.svg) !important;
+  content: url(flower.svg) !important;
 }
 
 #titlebar {
     background: linear-gradient(#554a9c, #4b418a) !important;
 }
 
-/* Sets the toolbar color */
 toolbar#nav-bar {
     background: linear-gradient(#4b418a, #332d63) !important;
     box-shadow: none !important;
@@ -44,4 +43,14 @@ tab[selected] .tab-background {
   border-inline-start: 0 !important;
   padding-inline-start: 0 !important;
   margin-inline-start: 0 !important;
+}
+
+/*===== Private Browsing ======*/
+
+#private-browsing-indicator-with-label {
+    display: none;
+}
+
+tab[label="New Private Tab"] .tab-icon-image {
+  content: url(flower.svg) !important;
 }
